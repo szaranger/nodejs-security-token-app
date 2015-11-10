@@ -1,5 +1,5 @@
 {
-  "name": "Node JS Security Boilerplate",
+  "name":"nodejs-security-token-app",
   "version": "0.0.1",
   "description": "Node JS App with Security",
   "main": "index.js",
