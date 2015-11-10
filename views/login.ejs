@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+
+<body>
+  <h2>Log In</h2>
+
+  <form action="/login" method="POST">
+    <p>
+      <label for="">Username</label>
+      <input type="text" name="username">
+    </p>
+    <p>
+      <label for="">Password</label>
+      <input type="text" name="password">
+    </p>
+    <p>
+      <button>Log In</button>
+    </p>
+  </form>
+
+  <div>
+    <h2> Sign Up </h2>
+
+    <form action='/signup' method='POST'>
+      <p>
+        <label> Full Name </label>
+        <input type='text' name='fullname'/> </p>
+      <p>
+        <label> Email (Will be used to get your Gravatar)</label>
+        <input type='email' name='email'/> </p>
+      <p>
+        <label> Username </label>
+        <input type='text' name='username'/> </p>
+      <p>
+        <label> Password </label>
+        <input type='password' name='password'/> </p>
+      <p>
+        <button class='button-primary'> Sign Up </button>
+      </p>
+    </form>
+  </div>
+</body>
+
+</html>
